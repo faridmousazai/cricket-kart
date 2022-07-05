@@ -386,6 +386,10 @@ a, a:visited {
   
 }
 
+.reference .michelin {
+  width: 10vw;
+}
+
 .reseauxSociaux img {
   width: 10%;
 }
@@ -445,6 +449,7 @@ a, a:visited {
 .contact-container {
   display: flex;
   background: #fff;
+  border: 1px solid black;
 }
 
 .contact-img {
