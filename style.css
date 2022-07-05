@@ -395,7 +395,13 @@ a, a:visited {
 .fa-brands{
   width: 120px;
   color: rgb(9, 63, 65);
+}
+.reference .michelin {
+  width: 10vw;
+}
 
+.reseauxSociaux img {
+  width: 10%;
 }
 
 /* ........./ Testimonial /.......... */
@@ -453,6 +459,7 @@ a, a:visited {
 .contact-container {
   display: flex;
   background: #fff;
+  border: 1px solid black;
 }
 
 .contact-img {
