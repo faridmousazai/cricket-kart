@@ -37,11 +37,11 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: #16a083;
+  background: #157087;
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: #2c7869;
   transition: background 0.3s ease-in-out;
 }
 
@@ -58,7 +58,7 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: rgb(96, 160, 160);
+  background-color: rgb(47, 146, 195);
   color: #fff;
   
  }
@@ -294,9 +294,10 @@ input[type=checkbox]{
 
 /* .........../Food Menu/............ */
 #food-menu .food-price{
-  color: #117964;
+  color: #415f7d;
   font-weight: 700;
   text-align: center;
+  font-size: 40px;
 }
 .food-menu-heading {
   text-align: center;
@@ -379,7 +380,7 @@ a, a:visited {
 
 .reference img {
   width: 30%;
-  height: 50px;
+  height: 150px;
   
 }
 .footer {
@@ -394,9 +395,10 @@ a, a:visited {
 }
 
 .reseauxSociaux{
-  width: auto;
+  width: 100%;
   margin: auto;
-
+  text-align: center;
+  font-size: 10px;
 }
 .fa-brands{
   width: 120px;
@@ -531,6 +533,8 @@ a, a:visited {
   background: rgb(65, 65, 65);
 }
 
+
+
 /* ......../ media query /.......... */
 
 
@@ -600,4 +604,24 @@ a, a:visited {
   .showcase-area {
     height: 50vmax;
   }
+}
+
+
+
+
+#address {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+#address h2 {
+  text-align: center;
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#address iframe {
+  width: 100%;
 }
